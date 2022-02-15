@@ -21,7 +21,7 @@ type ERC20Token struct {
 	Creator     string `json:"creator"`
 }
 
-var logger = flogging.MustGetLogger("erc20_cc")
+var logger = flogging.MustGetLogger("erc721_cc")
 
 const OwnerPrefix = "owner."
 
