@@ -27,7 +27,7 @@ const OwnerPrefix = "owner."
 
 func (token *ERC721TokenContract) Mint(ctx contractapi.TransactionContextInterface) string {
 
-	logger.Info("function:TokenCreation")
+	logger.Info("function:Mint")
 	stub := ctx.GetStub()
 
 	_, args := stub.GetFunctionAndParameters()
